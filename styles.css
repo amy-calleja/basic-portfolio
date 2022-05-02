@@ -78,3 +78,31 @@
     margin-top: 20px;
   }
   
+  @media (max-width: 576px) {
+
+    body {
+        text-align: center;
+        margin: 15px;
+        margin-bottom: 35px;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+    
+    .mobile-link {
+         display: block;
+         text-align: center;
+         margin: 0 10px;
+    } 
+
+
+  }
